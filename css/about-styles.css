@@ -1,0 +1,18 @@
+body{
+    background: #5f39dd;
+}
+
+body main > p{
+    font-family: 'Roboto Mono', monospace;;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+body main div + p{
+    padding-top: 100px;
+}
+
+.second-p{
+    padding-top: 0;
+}

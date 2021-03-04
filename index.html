@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/styles.css"/>
+     <link rel="stylesheet" href="css/nav-bar.css"/>
+     <title>Polygnosis</title>
+     <link rel="shortcut icon" type="image/jpg" href="images/p-design-whitecircle-background.jpg"/>
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Roboto&display=swap" rel="stylesheet">
+ </head>
+ <body>
+    <main>
+        <div class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="currentStages.html">Current Stages</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+        </div>
+        <!--Introduction about the project-->
+        <header>
+            
+            <div class="container">
+                <div id="p-logo-id">
+                    <img src="images/p-design-whitecircle-background.jpg" alt="Polygnosis logo">
+                    <h1>olygnosis</h1>
+                </div>
+                <h2>Modern medical diagnostics.</h2>
+            </div>
+            <div class="introductory-statement">
+                <img src="images/abstract-paint.jpg" alt="Random Group of Coders"/>
+                <p>We are a small team of developers looking to advance and decentralize medical diagnosis <i>accurately</i>, <i>effectively</i>, and <i>safely</i> to the people without access to doctors.</p>
+            </div>
+        </header>
+
+    </main>
+
+
+    <!-- in a wrapping section include different containers for each step of the flow: data sources, build, deploy -->
+    <section class="container">
+
+        <!-- in the sources container show three cards, side by side, or one atop the other on smaller viewports -->
+        <div class="container__sources">
+
+            <div class="sources--cms">
+            <h3>Security</h3>
+            <p>Blockchain + Tokenization (ALGO/ETH) and Open Source</p>
+            </div>
+
+            <div class="sources--markdown">
+            <h3>Artificial Intelligence</h3>
+            <p>Competitions and Developer Incentives</p>
+            </div>
+
+            <div class="sources--data">
+            <h3>Data</h3>
+            <p>APIs, Databases, GitHub, Kaggle, etc.</p>
+            </div>
+        </div>
+
+        <!-- include a simple line to divide the container, and animate it to show a connection between the different containers  -->
+        <svg viewbox="0 0 10 100">
+            <line x1="5" x2="5" y1="0" y2="100"/>
+        </svg>
+
+
+        <!-- in the build container show two cards, atop of one another and the first of one showing an SVG icon -->
+        <div class="container__build">
+
+            <div class="build--powered">
+            <svg viewbox="0 0 100 100">
+                <circle cx="50" cy="50" r="50"/>
+            </svg>
+            <p>powered by</p>
+            <h3>Polygnosis</h3>
+            </div>
+
+            <div class="build--stack">
+                HTML · CSS · React
+            </div>
+        </div>
+
+        <!-- repeat the svg line to connect the second and third containers as well -->
+        <svg viewbox="0 0 10 100">
+            <line x1="5" x2="5" y1="0" y2="100"/>
+        </svg>
+
+        <!-- in the deploy container show simply text, without a wrapping card -->
+        <div class="container__deploy">
+            <h3>Interactive pages</h3>
+            <p>Amazon S3, Netlify, and GitHub Pages. Try a decentralized webstack (Dfinity).</p>
+        </div>
+
+    </section>
+ </body>
+</html>
